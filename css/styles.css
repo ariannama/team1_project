@@ -2,9 +2,11 @@ body, html{
   padding: 0;
   margin: 0;
   border: 0;
+  height: 100%;
 }
 li:hover {
   cursor: pointer;
+  color: yellow;
 }
 .top {
   height: 120px;
@@ -43,4 +45,30 @@ li:hover {
 li{
   margin: 0 30px;
   margin-top: 3px;
+}
+.slideshow {
+  background-repeat: no-repeat;
+  margin: auto;
+  height: 100%;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
