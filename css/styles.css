@@ -3,6 +3,9 @@ body, html{
   margin: 0;
   border: 0;
 }
+li:hover {
+  cursor: pointer;
+}
 .top {
   height: 120px;
   width: 100%;
