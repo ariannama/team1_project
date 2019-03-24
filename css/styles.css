@@ -78,27 +78,40 @@ li{
   border-radius: 3px 0 0 3px;
 }
 
-h2 {
+h2,h3 {
   font-size: 3em;
   text-align: center;
   color: yellow;
   font-family: 'Ubuntu', sans-serif;
 }
 
-h2:after
-{
-  background-color: #333;
-  content: "";
-  display: inline-block;
-  height: 3px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
-}
-
-p {
+.abouttxt {
   font-size: 2em;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   margin: 10vh 10vw;
+}
+
+h4 {
+  color: black;
+  font-size: 45px;
+  text-align: center;
+
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  header: center;
+  color: black;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.description {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+
 }
