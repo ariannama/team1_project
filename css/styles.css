@@ -60,6 +60,7 @@ li{
 }
 #events{
   text-align: center;
+  font-size: 3em;
   margin: 20px;
   color: #ece200;
   font-family: 'Oswald', sans-serif;
@@ -126,48 +127,4 @@ a{
 a:hover{
   font-size: 1.2em;
   color: white;
-}
-
-h2,h3 {
-  font-size: 3em;
-  text-align: center;
-  color: yellow;
-  font-family: 'Merriweather Sans', sans-serif;
-}
-.abouttxt {
-  font-size: 2em;
-  text-align: center;
-  font-family: 'Ubuntu', sans-serif;
-  margin: 10vh 10vw;
-}
-
-h4 {
-  color: black;
-  font-size: 30px;
-  text-align: center;
-  cursor: pointer;
-  text-shadow: rgba(255, 255, 126, 1);
-
-}
-
-.card1, .card2, .card3, .card4, .card5, .card6, .card7 {
-  box-shadow: 0px 0px 4px 4px rgba(255, 255, 126, 1);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  header: center;
-  color: black;
-  font-size: 18px;
-  font-family: 'Ubuntu', sans-serif;
-  float: left;
-  margin: 30px;
-  height: 410px;
-  width: 140px;
-}
-
-.description {
-  color: black;
-  font-size: 20px;
-  text-align: center;
-
 }
