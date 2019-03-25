@@ -82,8 +82,9 @@ h2,h3 {
   font-size: 3em;
   text-align: center;
   color: yellow;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
 }
+
 
 .abouttxt {
   font-size: 2em;
@@ -110,8 +111,8 @@ h4 {
   font-family: 'Ubuntu', sans-serif;
   float: left;
   margin: 30px;
-  height: 600px;
-  width: 700px;
+  height: 410px;
+  width: 140px;
 }
 
 .description {
