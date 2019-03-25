@@ -38,4 +38,9 @@ $( document ).ready(function(){
   })
 
   $('body').removeClass('fade-out');
+
+  $('#lusu').on('click', function () {
+    window.open = "https://lancastersu.co.uk/groups/lu-mental-health";
+  })
+
 })
