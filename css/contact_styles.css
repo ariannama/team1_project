@@ -6,7 +6,7 @@ body, html{
 }
 body {
     opacity: 1;
-    transition: 1s opacity;
+    transition: 0.5s opacity;
 }
 body.fade-out {
     opacity: 0;
