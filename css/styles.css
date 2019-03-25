@@ -1,0 +1,130 @@
+body, html{
+  background-color: #CCC9C9;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #CCC9C9
+}
+body {
+    opacity: 1;
+    transition: 0.5s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+#home:hover, #about:hover, #contact:hover {
+  cursor: pointer;
+  color: yellow;
+}
+.top {
+  height: 120px;
+  width: 100%;
+  justify-content: center;
+  background-color: grey;
+  display: flex;
+}
+#title{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 0;
+  margin-top: 0.8%;
+}
+#logo{
+  display: flex;
+  padding: 15px;
+  border-radius: 130px;
+  margin-bottom: 0;
+  margin-top: 0.5%;
+}
+.toolbar{
+  background-color: black;
+  color: white;
+  height: 30px;
+}
+#list{
+  list-style-type: none;
+  font-size: 15pt;
+  margin: 0;
+  padding: 0;
+  font-family: 'Mukta', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  margin: 0 30px;
+  margin-top: 3px;
+}
+#events{
+  text-align: center;
+  font-size: 3em;
+  margin: 20px;
+  color: #ece200;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 1.5px 1.5px black;
+}
+.carousel {
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: #a5a5a5;
+  transition: 0.5s ease;
+  text-shadow: none;
+  box-shadow: 1px 1px 10px 10px #a5a5a5;
+}
+.carousel-item, .d-block, .carousel-inner{
+  height: 90vh;
+  object-fit: cover;
+  align-items: center;
+  transition: 0.5s ease;
+}
+.carousel:hover{
+  box-shadow: 1px 1px 10px 10px #7c7c7c;
+}
+.carousel-caption:hover{
+  background-color: #7c7c7c;
+  transition: 0.5s ease;
+  text-shadow: none;
+  box-shadow: 1px 1px 10px 10px #7c7c7c;
+}
+.carousel-caption{
+  text-shadow: 2px 2px #606052;
+  color: white;
+  transition: 0.5s ease;
+}
+.join, .button{
+  display: flex;
+  justify-content: center;
+}
+.join{
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 151px;
+  margin-top: 20px;
+  background-color: #0b0b0b;
+  text-align: center;
+  color: yellow;
+  font-family: 'Oswald', sans-serif;
+  border-color: black;
+  border: 10px;
+}
+a{
+  color: yellow;
+  transition: 0.2s ease;
+}
+a:hover{
+  font-size: 1.2em;
+  color: white;
+}
