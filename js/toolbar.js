@@ -1,3 +1,5 @@
+document.body.className += ' fade-out';
+
 $( document ).ready(function(){
   $('#about').on('click', function () {
     window.location.href = "about.html";
@@ -10,4 +12,6 @@ $( document ).ready(function(){
   $('#contact').on('click', function () {
     window.location.href = "contact.html";
   })
+
+  $('body').removeClass('fade-out');
 })

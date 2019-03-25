@@ -4,6 +4,14 @@ body, html{
   height: 100%;
   background-color: #CCC9C9;
 }
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
 li:hover {
   cursor: pointer;
   color: yellow;
