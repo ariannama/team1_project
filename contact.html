@@ -2,22 +2,51 @@
 <html>
   <head>
     <title>LU Mental Health Society</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700|Ubuntu|Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/contact_styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="js/index.js"></script>
   </head>
     <body>
-      <div class = "top">
-        <img id = "logo" src="logo.jpg" style="width: 85px; height: 80px;"><h1 id = "title">LU MENTAL HEALTH SOCIETY</h1>
-      </div>
-      <div class = "toolbar">
-        <ul id = "list">
-        <li id = "home">Home</li>
-        <li id = "about">About</li>
-        <li id = "contact">Contact</li>
-        </ul>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-        <script src="js/toolbar.js"></script>
-      </div>
-
+      <script>document.body.className += ' fade-out';</script>
+        <div class = "top">
+          <img id = "logo" src="logo.jpg" style="width: 107px; height: 100px;"><h1 id = "title">LU MENTAL HEALTH SOCIETY</h1>
+        </div>
+          <div class = "toolbar">
+            <ul id = "list">
+            <li id = "home">Home</li>
+            <li id = "about">About</li>
+            <li id = "contact">Contact</li>
+            </ul>
+          </div>
+        <div class = "form">
+          <h1 class ="contact_title">Get in touch with us!</h1>
+          <form action="https://formspree.io/ariannamarrocu55@gmail.com" method="POST"/>
+            <div class="form-group">
+              <label for="name-pc">Name:</label>
+              <input type="name" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+              <label for="email-pc">Password:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your e-mail">
+            </div>
+            <div class="form-group">
+              <label for="textbox-pc">What would you like to tell us?</label>
+              <textarea class="form-control" id="textbox" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+        </div>
+          <div class = "footer">
+            <p>FIND US ON SOCIAL MEDIA:</p>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+              <div class="wrapper">
+                <a href="https://www.facebook.com/LUMentalHealthSoc"><i class="fa fa-3x fa-facebook-square"></i></a>
+                <a href="your_url_here"><i class="fa fa-3x fa-twitter-square"></i>
+                <a href="https://instagram.com/lumentalhealth"><i class="fa fa-3x fa-instagram"></i>
+              </div></a>
+              <br>
+              <p> #NOMORESHAME </p>
     </body>
 </html>
