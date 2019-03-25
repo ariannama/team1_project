@@ -19,9 +19,24 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
             <script src="js/toolbar.js"></script>
           </div>
-        <div>
+        <div class = "form">
+          <h1 class ="contact_title">Get in touch with us!</h1>
           <form action="https://formspree.io/ariannamarrocu55@gmail.com" method="POST"/>
-          <input type="text" name="name">
+            <div class="form-group">
+              <label for="name-pc">Name:</label>
+              <input type="name" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+              <label for="email-pc">Password:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your e-mail">
+            </div>
+            <div class="form-group">
+              <label for="textbox-pc">What would you like to tell us?</label>
+              <textarea class="form-control" id="textbox" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+        </div>
           <div class = "footer">
             <p>FIND US ON SOCIAL MEDIA:</p>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

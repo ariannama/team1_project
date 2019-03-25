@@ -1,4 +1,4 @@
-var imgs = ['img1', 'img2', 'img3', 'img4', 'img5', 'img6', 'img7'];
+/*var imgs = ['img1', 'img2', 'img3', 'img4', 'img5', 'img6', 'img7'];
 
 $( document ).ready(function(){
     var imageUrl = "url('img1.jpg')"
@@ -21,3 +21,4 @@ $( document ).ready(function(){
       }
     })
 })
+*/
