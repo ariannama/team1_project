@@ -3,9 +3,9 @@ var imgs = ['img1', 'img2', 'img3', 'img4', 'img5', 'img6', 'img7'];
 $( document ).ready(function(){
     var imageUrl = "url('img1.jpg')"
     var index = 1
-    $('.slideshow').css('background-image', imageUrl)
+    $('.carousel-inner').css('background-image', imageUrl)
 
-   $(".next").on('click', function () {
+   $(".carousel-control-next").on('click', function () {
       if(index < imgs.length - 1){
         index++;
         imageUrl = "url('" + imgs[index] + ".jpg')"
@@ -13,7 +13,7 @@ $( document ).ready(function(){
       }
     })
 
-    $(".prev").on('click', function () {
+    $(".carousel-control-prev").on('click', function () {
       if(index > 0){
         index--;
         imageUrl = "url('" + imgs[index] + ".jpg')"

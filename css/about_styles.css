@@ -17,16 +17,18 @@ li:hover {
 }
 #title{
   font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 5em;
+  font-size: 4em;
   text-align: center;
   padding-top: 10px;
-  margin-top: 0%;
+  margin-bottom: 0;
+  margin-top: 0.8%;
 }
 #logo{
   display: flex;
-  padding: 20px;
+  padding: 15px;
   border-radius: 130px;
-  margin-top: 0%;
+  margin-bottom: 0;
+  margin-top: 0.5%;
 }
 .toolbar{
   background-color: black;

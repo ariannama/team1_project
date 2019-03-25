@@ -1,13 +1,10 @@
 body, html{
-  padding: 0;
-  margin: 0;
-  height: 100%;
   background-color: #CCC9C9;
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
-body{
-  padding-bottom:60px;
-}
-li:hover {
+#home:hover, #about:hover, #contact:hover {
   cursor: pointer;
   color: yellow;
 }
@@ -20,16 +17,18 @@ li:hover {
 }
 #title{
   font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 5em;
+  font-size: 4em;
   text-align: center;
   padding-top: 10px;
-  margin-top: 0%;
+  margin-bottom: 0;
+  margin-top: 0.8%;
 }
 #logo{
   display: flex;
-  padding: 20px;
+  padding: 15px;
   border-radius: 130px;
-  margin-top: 0%;
+  margin-bottom: 0;
+  margin-top: 0.5%;
 }
 .toolbar{
   background-color: black;
@@ -54,7 +53,7 @@ li{
   color: yellow;
   font-family: 'Oswald', sans-serif;
 }
-.slideshow {
+/*.slideshow {
   background-repeat: no-repeat;
   margin: auto;
   min-height: 100%;
@@ -84,6 +83,7 @@ li{
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+*/
 .container{
   height: 100%;
 }
