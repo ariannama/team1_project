@@ -94,10 +94,11 @@ h2,h3 {
 
 h4 {
   color: black;
-  font-size: 45px;
+  font-size: 30px;
   text-align: center;
 
 }
+
 .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -109,15 +110,13 @@ h4 {
   font-family: 'Ubuntu', sans-serif;
   float: left;
   margin: 30px;
-  width:  400px;
   height: 600px;
+  width: 700px;
 }
-
-
 
 .description {
   color: black;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 
 }
